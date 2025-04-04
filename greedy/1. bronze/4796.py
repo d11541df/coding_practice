@@ -34,7 +34,7 @@ while True:
     cnt += 1
     if L ==0 and P ==0 and V == 0:
         break
-    print(f'Case {cnt}:{ ((V // P) * L) + min(L,(V % P))}')
+    print(f'Case {cnt}: {((V // P) * L) + min(L,(V % P))}')
 
 
 cnt = 0
