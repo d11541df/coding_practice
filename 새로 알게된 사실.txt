@@ -1,0 +1,17 @@
+<250405>  
+
+1139 문제를 풀던중
+get 함수를 발견
+get(a, 0)
+a가 있으면 a를 가져오고 없으면 0을 가져와라
+
+fruit = {"apple": 5000,
+         "banana": 2000,
+         'grape':3000,
+         'peach': 4000,
+         'apple_premium': 7000}
+
+sort를 딕셔너리 상에서 하는건데
+
+result = sorted(fruit, key = lambda x: fruit[x], reverse= True) # 이거는 가격 쪽 value 쪽으로 sort
+result1 = sorted(fruit, key = lambda x: x, reverse= True) # 이거는 가격이 아니라 key쪽 이름 순으로 sort
